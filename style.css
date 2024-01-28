@@ -1,0 +1,148 @@
+*{
+    color: white;
+    font-family: sans-serif;
+    transition: 0.2s ease-in-out;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    font-size: 62.5%;
+}
+
+body{
+    background-color: #252A34;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 3rem;
+}
+
+
+.welcome-container, .choice-container{
+    display: none;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 3rem;
+}
+
+.welcome-container h1, .choice-container h1{
+    font-size: 4rem;
+}
+
+.welcome-container .ask-choice, .choice-container .ask-choice{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 5rem;
+}
+
+.welcome-container .ask-choice div, .choice-container .ask-choice div{
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+    background: #ffbb00;
+    color: #000;
+    padding: 1rem;
+    border-radius: .5rem;
+    font-size: 2.5rem;
+    font-weight: 600;
+    width: 12rem;
+
+}
+
+.game-container{
+    display: none;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 3rem;
+}
+
+.game-container h1{
+    font-size: 5rem;
+}
+
+.active-display{
+    display: flex;
+}
+
+
+table{
+    user-select: none;
+    border: 4px solid #000;
+}
+
+td {
+	border:  2px solid #000;
+	height:  100px;
+	width:  100px;
+	text-align:  center;
+	vertical-align:  middle;
+	font-family:  "Comic Sans MS";
+	font-size:  7rem;
+	cursor: pointer;
+}
+
+td:hover{
+    background-color: #ffbb00;
+}
+
+table {
+	border-collapse: collapse;
+}
+
+table tr:first-child td {
+	border-top: 0;
+}
+
+table tr:last-child td {
+	border-bottom: 0;
+}
+
+table tr td:first-child {
+	border-left: 0;
+}
+
+table tr td:last-child {
+	border-right: 0;
+}
+
+.endgame {
+  display: block;
+  width: 20rem;
+}
+
+.endgame .text{
+    text-align: center;
+    color: white;
+    font-size: 3rem;
+}
+
+button{
+    user-select: none;
+    background-color: #ffbb00;
+    padding: 10px 25px;
+    border: none;
+    color: black;
+    font-size: 2rem;
+    font-weight: 600;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover{
+    padding: 10px 40px;
+    background-color: #08D9D6;
+    color: #000;
+}
+
+
+
+
+
+
+
